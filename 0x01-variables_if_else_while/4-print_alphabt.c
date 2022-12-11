@@ -13,7 +13,7 @@ int main(void)
 	while (alp <= 'z')
 
 	{
-	if (alp == 'e' || alp == 'q'
+	if (alp == 'e' || alp == 'q')
 		++alp;
 	putchar(alp);
 	++alp;
