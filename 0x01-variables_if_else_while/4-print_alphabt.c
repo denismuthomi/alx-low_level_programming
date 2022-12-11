@@ -11,12 +11,11 @@ int main(void)
 	char alp = 'a';
 
 	while (alp <= 'z')
-
 	{
-	if (alp == 'e' || alp == 'q')
+		if (alp == 'e' || alp == 'q')
+			++alp;
+		putchar(alp);
 		++alp;
-	putchar(alp);
-	++alp;
 	}
 	putchar('\n')
 	return (0);
