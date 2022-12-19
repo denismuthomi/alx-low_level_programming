@@ -10,6 +10,7 @@ void rev_string(char *s)
 
 	for (length = 0; s[length] != '\0'; length++)
 		;
+
 	j = 0;
 	lenHalf = length / 2;
 	while (lenHalf--)
